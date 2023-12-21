@@ -11,8 +11,8 @@ prompts = [
     'A dining room in Persia',
     'inside Bag End',
     'inside the cantina in star wars',
-    'inside a pirate ship',
-    'Inside a prison',
+    'inside a bedroom in France',
+    'Inside a medieval prison',
 ]
 
 for i, p in enumerate(prompts):
@@ -35,26 +35,26 @@ for i, p in enumerate(prompts):
     cleaned_non_depth_pano.save('images/raw/prompt{}/'.format(i)+name + 'cleaned_non_depth_pano.jpg')
 
     # Create a 2x2 subfigure
-    fig, axes = plt.subplots(2, 2, figsize=(18, 16))
+    fig, axes = plt.subplots(2, 2, figsize=(10, 7))
 
     # Display the images in each subplot
     axes[0, 0].imshow(non_depth_pano)
-    axes[0, 0].set_title('Base Pano')
+    axes[0, 0].set_title('Base Panorama')
     axes[0, 0].set_xticks([]), axes[0, 0].set_yticks([])
 
 
     axes[0, 1].imshow(cleaned_non_depth_pano)
-    axes[0, 1].set_title('Stitched Base Pano')
+    axes[0, 1].set_title('Stitched Base Panorama')
     axes[0, 1].set_xticks([]), axes[0, 1].set_yticks([])
 
 
     axes[1, 0].imshow(depth_pano)
-    axes[1, 0].set_title('Depth Pano')
+    axes[1, 0].set_title('Depth Panorama')
     axes[1, 0].set_xticks([]), axes[1, 0].set_yticks([])
 
 
     axes[1, 1].imshow(cleaned_depth_pano)
-    axes[1, 1].set_title('Stitched Depth Pano')
+    axes[1, 1].set_title('Stitched Depth Panorama')
     axes[1, 1].set_xticks([]), axes[1, 1].set_yticks([])
 
 
