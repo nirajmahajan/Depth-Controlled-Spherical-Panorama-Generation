@@ -69,5 +69,21 @@ python3 main.py
 - `part2.py`: Contains `create_pano_depth` function for generating panoramas using prompt and depth information.
 - `cleaner.py`: Contains `clean_pano` function for seam-stitching.
 
+## Rendering Panoramas
 The generated images are stored in the `images/` directory. Use images from `images/raw/` to render panoramas at [360 Panorama Web Viewer](https://renderstuff.com/tools/360-panorama-web-viewer/).
+
+The following are the (prompt only) coherent panoramas that can be rendered in the Web viewer
+1. [Dining Room in Persia](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt0/Prompt0_cleaned_non_depth_pano.jpg)
+2. [Inside Bag End](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt1/Prompt1_cleaned_non_depth_pano.jpg)
+3. [Inside the Cantina Star Wars](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt2/Prompt2_cleaned_non_depth_pano.jpg)
+4. [Inside a Pirate Ship](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt3/Prompt3_cleaned_non_depth_pano.jpg)
+5. [Inside a Prison](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt4/Prompt4_cleaned_non_depth_pano.jpg)
+
+The following are the depth-conditioned panoramas.
+1. [Dining Room in Persia](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt0/Prompt0_cleaned_depth_pano.jpg)
+2. [Inside Bag End](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt1/Prompt1_cleaned_depth_pano.jpg)
+3. [Inside the Cantina Star Wars](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt2/Prompt2_cleaned_depth_pano.jpg)
+4. [Inside a Pirate Ship](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt3/Prompt3_cleaned_depth_pano.jpg)
+5. [Inside a Prison](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt4/Prompt4_cleaned_depth_pano.jpg)
+
 
