@@ -10,7 +10,7 @@ pipe = DiffusionPipeline.from_pretrained(
         "stabilityai/stable-diffusion-xl-base-1.0",
         torch_dtype=torch.float16,
         variant="fp16",
-).to("cuda:1")
+).to("cuda")
 
 pipe.load_lora_weights("jbilcke-hf/sdxl-panorama", weight_name="lora.safetensors")
 

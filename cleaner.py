@@ -5,7 +5,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 
-pipe = AutoPipelineForInpainting.from_pretrained("diffusers/stable-diffusion-xl-1.0-inpainting-0.1", torch_dtype=torch.float16, variant="fp16").to("cuda:1")
+pipe = AutoPipelineForInpainting.from_pretrained("diffusers/stable-diffusion-xl-1.0-inpainting-0.1", torch_dtype=torch.float16, variant="fp16").to("cuda")
 
 
 def clean_pano(image, prompt, name = "Run0"):
@@ -16,7 +16,7 @@ def clean_pano(image, prompt, name = "Run0"):
     w = width//15
     mask[:,(width//2)-w:(width//2)+w] = 1
 
-    generator = torch.Generator(device="cuda:1").manual_seed(0)
+    generator = torch.Generator(device="cuda").manual_seed(0)
 
     plt.imsave(name+'_image_rolled.jpg', image)
     # plt.imsave(name+'_mask.jpg', mask, cmap = 'gray')

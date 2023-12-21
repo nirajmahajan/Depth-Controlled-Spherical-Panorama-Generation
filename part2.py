@@ -11,7 +11,7 @@ controlnet = ControlNetModel.from_pretrained(
     variant="fp16",
     use_safetensors=True,
     torch_dtype=torch.float16,
-).to("cuda:1")
+).to("cuda")
 vae = AutoencoderKL.from_pretrained("madebyollin/sdxl-vae-fp16-fix", torch_dtype=torch.float16).to("cuda")
 pipe = StableDiffusionXLControlNetImg2ImgPipeline.from_pretrained(
     "stabilityai/stable-diffusion-xl-base-1.0",
@@ -20,7 +20,7 @@ pipe = StableDiffusionXLControlNetImg2ImgPipeline.from_pretrained(
     variant="fp16",
     use_safetensors=True,
     torch_dtype=torch.float16,
-).to("cuda:1")
+).to("cuda")
 pipe.load_lora_weights("jbilcke-hf/sdxl-panorama", weight_name="lora.safetensors")
 pipe.enable_model_cpu_offload()
 
