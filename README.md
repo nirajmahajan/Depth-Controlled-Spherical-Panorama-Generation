@@ -43,16 +43,16 @@ I have tested this methodology with the following prompts:
 1. 'A dining room in Persia'
 2. 'Inside Bag End'
 3. 'Inside the cantina in Star Wars'
-4. 'Inside a pirate ship'
-5. 'Inside a prison'
+4. 'Inside a bedroom in France'
+5. 'Inside a medieval prison'
 
 Below are the results for each prompt:
 
 ![Dining Room in Persia](images/Prompt_0.jpg)
 ![Inside Bag End](images/Prompt_1.jpg)
 ![Inside the Cantina](images/Prompt_2.jpg)
-![Inside a Pirate Ship](images/Prompt_3.jpg)
-![Inside a Prison](images/Prompt_4.jpg)
+![Inside a bedroom in France](images/Prompt_3.jpg)
+![Inside a medieval Prison](images/Prompt_4.jpg)
 
 
 ## Usage of Code
@@ -76,14 +76,14 @@ The following are the (prompt only) coherent panoramas that can be rendered in t
 1. [Dining Room in Persia](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt0/Prompt0_cleaned_non_depth_pano.jpg)
 2. [Inside Bag End](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt1/Prompt1_cleaned_non_depth_pano.jpg)
 3. [Inside the Cantina Star Wars](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt2/Prompt2_cleaned_non_depth_pano.jpg)
-4. [Inside a Pirate Ship](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt3/Prompt3_cleaned_non_depth_pano.jpg)
-5. [Inside a Prison](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt4/Prompt4_cleaned_non_depth_pano.jpg)
+4. [Inside a bedroom in France](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt3/Prompt3_cleaned_non_depth_pano.jpg)
+5. [Inside a medieval Prison](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt4/Prompt4_cleaned_non_depth_pano.jpg)
 
 The following are the depth-conditioned panoramas.
 1. [Dining Room in Persia](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt0/Prompt0_cleaned_depth_pano.jpg)
 2. [Inside Bag End](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt1/Prompt1_cleaned_depth_pano.jpg)
 3. [Inside the Cantina Star Wars](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt2/Prompt2_cleaned_depth_pano.jpg)
-4. [Inside a Pirate Ship](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt3/Prompt3_cleaned_depth_pano.jpg)
-5. [Inside a Prison](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt4/Prompt4_cleaned_depth_pano.jpg)
+4. [Inside a bedroom in France](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt3/Prompt3_cleaned_depth_pano.jpg)
+5. [Inside a medieval Prison](https://github.com/nirajmahajan/Depth-Controlled-Spherical-Panorama-Generation/blob/main/images/raw/prompt4/Prompt4_cleaned_depth_pano.jpg)
 
 
