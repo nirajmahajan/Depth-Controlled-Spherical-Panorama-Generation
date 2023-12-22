@@ -24,7 +24,11 @@ git clone https://github.com/replicate/cog-sdxl cog_sdxl
 
 ## Generating a Prompt Conditioned Panorama
 
-For generating 360-degree panoramas, I utilized the LoRA weights from [this model](https://huggingface.co/jbilcke-hf/sdxl-panorama). Initially, the seams of these panoramas were not coherent. To address this, I rolled the panorama by half its width, placing the incoherent transition in the centre. Then, by masking and inpainting, the center using XL Stable Diffusion, a coherent panorama was achieved.
+For generating 360-degree panoramas, I utilized the LoRA weights from [this model](https://huggingface.co/jbilcke-hf/sdxl-panorama). This is an XL Stable diffusion model that is tuned to generate 360 panorama images when referred to the T0k token. 
+
+## Seam Correction
+
+Initially, the seams of these panoramas were not coherent. To address this, I rolled the panorama by half its width, placing the incoherent transition in the centre. Then, by masking and inpainting, the center using XL Stable Diffusion, a coherent panorama was achieved.
 
 <figure style="text-align: center;">
     <img src="images/raw/prompt0/Prompt_non_depth0_image_rolled.jpg" alt="alt text" width="512" height="256"/>
